@@ -1,2 +1,2 @@
 # artiste
-A small demo of the Contentful image API
+A not yet functional small demo of the Contentful image API
