@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Contentful Image API playground</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid" id="topJumbotron">
+  <div class="container">
+    <h1 class="display-3">Artiste</h1>
+    <p class="lead">A of the Contentful Image API</p>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h1 class="display-6">Original image</h1>
+      <div class="originalImage">
+        <img src="//images.contentful.com/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg" alt="Original image from the Contentful API">
+
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h1 class="display-6">Requested image</h1>
+      <div class="requestedImage">
+  <img src="//images.contentful.com/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid" id="imageControls">
+  <div class="container">
+  <div class="row">
+
+    <div class="col-lg-12">
+      <h1 class="display-6">Adjust image properties and request image</h1>
+      <br>
+      <form>
+  <div class="form-group">
+    <label for="imageWidth">Set image width in pixles</label>
+    <input type="range" class="form-control" id="imageWidth" min="1" max="100" value="100">
+  </div>
+
+  <div class="form-group">
+    <label for="imageHeight">Set image height in pixles</label>
+    <input type="range" class="form-control" id="imageHeight" min="1" max="100" value="100">
+  </div>
+
+  <div class="form-group">
+    <label for="imageQuality">Set image quality in percent</label>
+    <input type="range" class="form-control" id="imageQuality" min="1" max="100" value="100">
+  </div>
+
+
+  <button type="button" class="btn btn-outline-light" id="requestButton">Click to request image from API</button>
+</form>
+    </div>
+  </div>
+</div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>

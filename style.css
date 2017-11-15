@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Gentium+Book+Basic');
+
+#topJumbotron{
+  background-color: #7D5193;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+}
+
+.lead{
+  font-family: 'Gentium Book Basic', serif;
+}
+
+h1{
+  font-family: 'Fredoka One', cursive;
+}
+
+#imageControls{
+  padding-top: 25px;
+  background-color: #C9284E;
+  color: white;
+  padding-bottom: 25px;
+  font-family: 'Gentium Book Basic', serif;
+}
