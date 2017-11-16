@@ -25,3 +25,6 @@ And if you want to use the Image API's support for image resizing and JPEG quali
 Example request where width is set to 349, height to 254 and the JPEG quality to 70
 
 `https://images.contentful.com/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg?w=349&h=254&fit=scale&q=70`
+
+## GUI screenshot
+![GUI screenshot](artiste_screenshot.png)
