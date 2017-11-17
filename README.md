@@ -1,7 +1,7 @@
 # ARTISTE
 Artiste is a small demo implementation of the [Contentful image API](https://www.contentful.com/developers/docs/references/images-api/).
 
-A live demo is available at [http://magnificent-system.surge.sh/](http://magnificent-system.surge.sh/)
+A live demo is available at [http://old-soup.surge.sh/](http://old-soup.surge.sh/)
 
 ## HOW DOES IT WORK
 The Contentful image API lets you manipulate images on the fly using API calls
